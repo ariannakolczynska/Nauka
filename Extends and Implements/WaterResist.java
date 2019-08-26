@@ -10,8 +10,8 @@ package pkgextends.and.pkgimplements;
  * @author Horikss
  */
 public interface WaterResist {
-    final String clas = " Class: Water ";
-    final int waterResist = 100;
-    final int fireResist= 40;
-    final double dmg = 1.5;
+    String clas = " Class: Water ";
+    int waterResist = 100;
+    int fireResist= 40;
+    double dmg = 1.5;
 }
