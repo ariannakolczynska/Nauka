@@ -10,10 +10,10 @@ package pkgextends.and.pkgimplements;
  * @author Horikss
  */
 public interface FireResist {
-    final String clas = " Class: Fire ";
-    final int waterResist = 50;
-    final int fireResist= 100;
-    final int dmg = 2;
+    String clas = " Class: Fire ";
+    int waterResist = 50;
+    int fireResist= 100;
+    int dmg = 2;
     
     
 }
