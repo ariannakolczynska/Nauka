@@ -9,7 +9,7 @@ public class Jdbc {
         try{
             Connection test = DriverManager.getConnection("jdbc:mysql://localhost/first?" + "user=user&password=pass");
             Statement stmt = test.createStatement();
-            stmt.execute("DROP TABLE book");
+            
             stmt.execute("CREATE TABLE book("
                     + "Author TEXT,"
                     + "Descritpion TEXT,"
@@ -24,6 +24,7 @@ public class Jdbc {
                     System.out.println("Author: "+ rs.getString("Author") + " Description: " + rs.getString("Descritpion")+" Price: "+rs.getString("Price")+"zł");
                 }
             }
+            stmt.execute("DROP TABLE book");
         }catch(SQLException t){
           System.out.println("SQLException: " + t.getMessage());
     System.out.println("SQLState: " +  t.getSQLState());
