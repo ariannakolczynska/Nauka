@@ -7,7 +7,6 @@ www.reddit.com/r/dailyprogrammer
 adrian.kluba7@gmail.com albo obinix1@gmail.com
 
 Wyjaśnienie programów (kolejność opisu losowa, czas dodawania widoczny na stronie głównej, czas oznacza kolejność wykonywanych zadań, patrząc w kolejności można zobaczyć różnice w pisanym kodzie):<br>
-[Reddit] challenge_372 - Given a string containing only the characters x and y, find whether there are the same number of xs and ys.<br>
 
 [Reddit] Challenge 380 - Change alphabet to morse code<br>
 
