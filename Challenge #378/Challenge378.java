@@ -43,14 +43,14 @@ public class Challenge378 {
       }
       while(number2 == 0 );
        
-    number hakimi = new number();
+    number hakimi = new number(); //nazwa klasy z malej, do tego o tresci number, co mowi wszystko i nic i nazwa zmiennej hakimi
 
 
     hakimi.putList(number2);
     
-    hakimi.Option1();
-        System.out.println("Option1 Remove all 0's from the sequence, ");
-    hakimi.showList();
+    hakimi.Option1(); //nazwa metody z malej
+        System.out.println("Option1 Remove all 0's from the sequence, "); //fajnie ze wynosisz metody do innych klas, nie mniej nazywanie metody option1 nie za duzo mowi, opisz ja tak jak ten sysout
+    hakimi.showList(); //fajna metoda, wtedy te sysouty sa poukrywane
         System.out.println("Option2");
         hakimi.Option2();
         hakimi.showList();
@@ -58,7 +58,7 @@ public class Challenge378 {
         hakimi.Option3();
         System.out.println("Option 4");
         hakimi.Option4();
-        
+        //ogolnie pobawnie sie logerrami, log4j czy cos takiego, zrezygnujcie z tych sysoutów
 
         
   
